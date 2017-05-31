@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#D22030</color>
+    <color name="colorPrimaryDark">#CF112B</color>
+    <color name="colorAccent">#646464</color>
+    <color name="Graphite">#75787B</color>
+    <color name="Grey">#e2e3e4</color>
+    <color name="Dark">#000000</color>
+    <color name="Silver">#fcfcfc</color>
+    <color name="White">#FFFFFF</color>
+    <color name="Initial">#d1d0d0</color>
+    <color name="Final">#FFFFFF</color>
+
+    <color name="date_vote">#666666</color>
+    <color name="vote">#888888</color>
+    <color name="list_divider">#d9d9d9</color>
+    <color name="list_row_start_color">#ffffff</color>
+    <color name="list_row_end_color">#ffffff</color>
+    <color name="list_row_hover_start_color">#ebeef0</color>
+    <color name="list_row_hover_end_color">#ebeef0</color>
+</resources>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:id="@+id/coordinatorLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:whatever="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background_two">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:whatever="http://schemas.android.com/apk/res-auto"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            xmlns:app="http://schemas.android.com/tools"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_view_report"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight= "20dp"
+                android:layout_marginTop="5dp"
+                card_view:cardCornerRadius="8dp"
+                card_view:cardElevation="8dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/reports"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/txt_reports"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textStyle="bold"/>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/input_layout_devicename"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    <com.andreabaccega.widget.FormEditText
+                            android:id="@+id/incident_code"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="40dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginBottom="10dip"
+                            android:singleLine="true"
+                            android:hint="@string/txtHintCode"
+                            whatever:testType="nocheck"
+                            whatever:emptyErrorString="@string/error_codeempty"
+                            android:drawableLeft="@drawable/ic_gavel"
+                            android:drawablePadding="10dp"/>
+                    </android.support.design.widget.TextInputLayout>
+
+                        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                            xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginRight="30dp"
+                            android:layout_marginBottom="20dp"
+                            android:gravity="center">
+
+                            <com.rey.material.widget.Button
+                                android:id="@+id/btnReport"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/bt_height"
+                                android:textColor="@color/White"
+                                android:layout_weight="0.4"
+                                app:rd_rippleColor="@color/colorPrimaryDark"
+                                android:text="@string/btnReport"
+                                android:background="@drawable/bg_bt_raise_red_color"
+                                style="@style/Material.Drawable.Ripple.Wave.Light"/>
+                        </RelativeLayout>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card_view_resume"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight= "20dp"
+                    android:layout_marginTop="20dp"
+                    card_view:cardCornerRadius="8dp"
+                    card_view:cardElevation="8dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/resume"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/txt_resume"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textStyle="bold"/>
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/input_layout_resume"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <com.andreabaccega.widget.FormEditText
+                                android:id="@+id/incident_resume"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="40dp"
+                                android:layout_marginLeft="20dp"
+                                android:layout_marginRight="20dp"
+                                android:layout_marginBottom="10dip"
+                                android:singleLine="true"
+                                android:hint="@string/txtHintCode2"
+                                android:drawableLeft="@drawable/ic_gavel"
+                                android:drawablePadding="10dp"/>
+                        </android.support.design.widget.TextInputLayout>
+
+                        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                            xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginRight="30dp"
+                            android:layout_marginBottom="20dp"
+                            android:gravity="center">
+
+                            <com.rey.material.widget.Button
+                                android:id="@+id/btnResume"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/bt_height"
+                                android:textColor="@color/White"
+                                android:layout_weight="0.4"
+                                app:rd_rippleColor="@color/colorPrimaryDark"
+                                android:text="@string/btnReport"
+                                android:background="@drawable/bg_bt_raise_red_color"
+                                style="@style/Material.Drawable.Ripple.Wave.Light"/>
+                        </RelativeLayout>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+        </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

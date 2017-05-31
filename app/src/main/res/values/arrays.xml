@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="region">
+        <item>Coatzacoalcos</item>
+        <item>Villahermosa</item>
+        <item>Merida</item>
+        <item>Cancún</item>
+    </string-array>
+
+    <string-array name="level">
+        <item>Usuario</item>
+        <item>Administrador</item>
+    </string-array>
+
+    <string-array name="category">
+        <item>Grado 0</item>
+        <item>Grado 1</item>
+        <item>Grado 2</item>
+        <item>Grado 3</item>
+        <item>Grado 4</item>
+        <item>Grado 5</item>
+        <item>Apedreado</item>
+        <item>Ave</item>
+        <item>Rama</item>
+    </string-array>
+
+    <string-array name="classification">
+        <item>Golpeamos</item>
+        <item>Nos golpearon</item>
+        <item>Secuestro</item>
+        <item>Asalto</item>
+        <item>Apedreado</item>
+        <item>Golpe contra ave</item>
+        <item>Golpe contra rama</item>
+        <item>Incendio</item>
+        <item>Falla electrica/mecanica</item>
+    </string-array>
+
+    <string-array name="type">
+        <item>De frente</item>
+        <item>Por alcance</item>
+        <item>De costado</item>
+        <item>De reversa</item>
+        <item>Atropellamiento</item>
+        <item>A semoviente</item>
+        <item>En maniobras</item>
+        <item>N/A</item>
+    </string-array>
+
+    <string-array name="site">
+        <item>Carretera</item>
+        <item>Ciudad</item>
+        <item>Terminal</item>
+        <item>Encierro</item>
+        <item>Taller</item>
+    </string-array>
+
+
+</resources>

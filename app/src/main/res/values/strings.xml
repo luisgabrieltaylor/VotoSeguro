@@ -1,0 +1,163 @@
+<resources>
+    <string name="app_name">Voto Seguro</string>
+
+    <!-- LOGIN -->
+
+    <string name="toast_PressAgain">Presione atras nuevamente para salir</string>
+    <string name="txt_User">Email</string>
+    <string name="txtHint_User">Inserte su email</string>
+    <string name="txtHint_Name">Inserte su nombre</string>
+    <string name="txt_Password">Contraseña</string>
+    <string name="txt_IP">IP</string>
+    <string name="txtHint_Password">Inserte su contraseña</string>
+    <string name="txtHint_IP">Inserte la IP del servidor</string>
+    <string name="txtBtn_Login">Ingresar</string>
+    <string name="dialog_checkingcredentials">Revisando sus credenciales de acceso!</string>
+    <string name="error_emailnotvalid">Error! Email no valido</string>
+    <string name="error_ipnotvalid">Error! IP no valida</string>
+    <string name="error_emailempty">Email vacio</string>
+    <string name="error_passwordempty">Password vacio</string>
+    <string name="error_ipempty">IP vacia</string>
+    <string name="error_credentials">Error en los datos, validelos</string>
+    <string name="str_si">Si</string>
+    <string name="str_no">No</string>
+    <string name="str_exit_message">¿Desea cerrar sesión y salir de la aplicación?</string>
+    <string name="str_title_exit">Cerrar sesión</string>
+
+    <!-- MENU PRINCIPAL -->
+
+    <string name="menu1">Configuración \nGeneral</string>
+    <string name="menu2">Reportes</string>
+    <string name="menu3">Votación</string>
+    <string name="menu4">Salir</string>
+
+    <string name="snack_main_menu">Bienvenido</string>
+    <string name="snackbar_action_ok">OK</string>
+    <string name="action_settings">Configuración</string>
+    <string name="action_about">Acerca de</string>
+    <string name="copy_right">Copyrights © %1$d</string>
+
+    <!-- MENU GENERAL -->
+    <string name="menu_1">Principal</string>
+    <string name="menu_2">Usuarios</string>
+    <string name="menu_3">Dispositivos</string>
+    <string name="menu_4">Regiones</string>
+    <string name="menu_5">Zonas</string>
+    <string name="menu_6">Codigos</string>
+    <string name="menu_7">Cerrar</string>
+
+    <string name="txt_main">Configuración\ngeneral</string>
+
+    <string name="txt_users">Usuarios</string>
+    <string name="txtBtn_addUser">Agregar usuario</string>
+    <string name="txtBtn_delUser">Eliminar usuario</string>
+    <string name="txtBtn_modUser">Modificar usuario</string>
+
+    <string name="txt_devices">Dispositivos</string>
+    <string name="txtBtn_addDevice">Agregar dispositivos</string>
+    <string name="txtBtn_delDevice">Eliminar dispositivos</string>
+    <string name="txtBtn_modDevice">Modificar dispositivos</string>
+
+    <string name="txt_codes">Códigos</string>
+    <string name="txtBtn_addCodes">Agregar código</string>
+    <string name="txtBtn_delCodes">Eliminar código</string>
+    <string name="txtBtn_modCodes">Modificar código</string>
+
+    <string name="txt_region">Región</string>
+    <string name="txtBtn_addRegion">Agregar región</string>
+    <string name="txtBtn_delRegion">Eliminar región</string>
+    <string name="txtBtn_modRegion">Modificar región</string>
+    <!-- REGISTRO -->
+
+    <string name="btn_register">Registrar</string>
+    <string name="btn_date">Fecha</string>
+    <string name="txtHintRegister_Name">Nombre de usuario</string>
+    <string name="txtHintRegister_Email">Email del usuario</string>
+    <string name="txtHintRegister_Password">Ingrese el password</string>
+    <string name="txtHintRegister_Password2">Valide el password</string>
+    <string name="txtHintRegister_Level">Seleccione un nivel de permiso</string>
+    <string name="txtHintRegister_Region">Seleccione una región</string>
+    <string name="txtHintRegister_DeviceName">Nombre del dispositivo</string>
+    <string name="txtHintRegister_DeviceMAC">MAC del dispositivo</string>
+    <string name="txtHintRegister_DeviceUser">Usuario del dispositivo</string>
+    <string name="txtHintRegister_Code">Inserte código</string>
+    <string name="txtHintRegister_Driver">Ingrese la clave del conductor</string>
+    <string name="txtHintRegister_CodeBus">Autobus</string>
+    <string name="txtHintRegister_CodeDate">Fecha (AAAA-MM-DD)</string>
+    <string name="txtHintRegister_RegisterRegion">Agregue una región</string>
+    <string name="txtHintRegister_Site">¿Donde ocurrio el accidente?</string>
+    <string name="txtBtn_Register">Registrar</string>
+    <string name="txt_device">Dispositivo</string>
+    <string name="txt_level">Nivel de usuario</string>
+    <string name="txt_category">Grado</string>
+    <string name="txt_classification">Clasificación</string>
+    <string name="txt_type">Tipo</string>
+    <string name="txt_registerUser">Registro de usuarios</string>
+    <string name="txt_registerDevice">Registro de dispositivos</string>
+    <string name="txt_registerCode">Registro de códigos</string>
+    <string name="txt_registerRegion">Registro de regiones</string>
+    <string name="error_userempty">Nombre de usuario vacio</string>
+    <string name="error_driverempty">Inserte la clave del conductor</string>
+    <string name="error_deviceempty">Nombre de dispositivo vacio</string>
+    <string name="error_codeempty">Inserte un código</string>
+    <string name="error_codebusempty">Inserte un autobus</string>
+    <string name="error_macempty">Es necesaria una dirección MAC</string>
+    <string name="error_usernotvalid">Nombre no valido</string>
+    <string name="error_regionempty">Región vacia</string>
+    <string name="error_dateempty">Ingrese una fecha</string>
+    <string name="error_siteempty">Lugar vacio</string>
+    <string name="error_code">Código no valido</string>
+    <string name="txtHintRegister_Device">Asigne un dispositivo</string>
+
+    <!-- REPORTES -->
+    <string name="txt_reports">Reportes por código</string>
+    <string name="txt_resume">Resumen por sesión</string>
+    <string name="btnResume">Resumir</string>
+    <string name="btnReport">Generar</string>
+    <string name="txtHintCode">Número de código</string>
+    <string name="txtHintCode2">Fecha de sesión</string>
+
+
+    <!-- VOTAR -->
+
+    <string name="txt_code">Código a sesionar</string>
+    <string name="btnSesion">Sesionar</string>
+
+    <!-- NAV DRAWER -->
+    <string name="action_search">Buscar</string>
+    <string name="drawer_open">Abrir</string>
+    <string name="drawer_close">Cerrar</string>
+    <string name="closeDrawer">Vista de navegación</string>
+    <string name="openDrawer">Cerrar vista de navegación</string>
+
+    <string name="nav_item_home">Inicio</string>
+
+    <!-- Votacion -->
+    <string name="txtSR">Sin responsabilidad</string>
+    <string name="txtPD">Con responsabilidad-Pago de daños</string>
+    <string name="txtRC">Con responsabilidad-Rescisión de contrato</string>
+    <!--<string name="txtSSR">Se sugiere reconocimiento</string>-->
+    <string name="btnsesion">Votar</string>
+    <string name="str_title_vote">Advertencia</string>
+    <string name="str_vote_message">Se realizara la votación con los siguientes datos: </string>
+
+    <string name="txt_bus">Autobus: </string>
+    <string name="txt_codesession">Código: </string>
+    <string name="txt_grade">Grado: </string>
+    <string name="txt_codedate">Fecha: </string>
+    <string name="txt_site">Lugar: </string>
+    <string name="txt_class">Clasificación: </string>
+    <string name="txt_typealt">Tipo: </string>
+    <string name="txt_policy">La politica sugiere votar </string>
+    <string name="resetcode"> Borrar datos </string>
+    <string name="refreshcode"> Actualizar datos </string>
+    <string name="closecode"> Cerrar votación </string>
+    <string name="about_txt">Usted esta por cerrar el código:</string>
+    <string name="aboutvotes_txt">El resultado de la votación es: </string>
+    <!-- TABS Ctoledo023 -->
+
+    <string name="one">Abrir</string>
+    <string name="two">Abrir</string>
+    <string name="three">Abrir</string>
+
+</resources>

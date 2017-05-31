@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/menu_top">
+
+        <!--android:icon="@drawable/ic_inbox_black"-->
+
+        <item
+            android:id="@+id/main"
+            android:checked="true"
+            android:icon="@drawable/ic_action_home"
+            android:title="@string/menu_1" />
+
+        <item
+            android:id="@+id/users"
+            android:checked="false"
+            android:icon="@drawable/ic_action_assignment_ind"
+            android:title="@string/menu_2"/>
+
+        <item
+            android:id="@+id/devices"
+            android:checked="false"
+            android:icon="@drawable/ic_devices"
+            android:title="@string/menu_3" />
+
+        <item
+            android:id="@+id/codes"
+            android:checked="false"
+            android:icon="@drawable/ic_format_list_numbered"
+            android:title="@string/menu_6" />
+
+    </group>
+
+    <group android:id="@+id/menu_bottom"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/logout"
+            android:checked="false"
+            android:icon="@drawable/ic_action_dashboard"
+            android:title="@string/menu_7"/>
+    </group>
+
+
+</menu>

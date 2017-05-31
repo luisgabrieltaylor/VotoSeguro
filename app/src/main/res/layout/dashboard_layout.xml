@@ -1,0 +1,34 @@
+<voto.ado.sainthannaz.votoseguro.aplication.DashboardLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="@drawable/gradient_background_two" >
+
+    <!-- android:drawableTop="@drawable/btn_general" -->
+    <Button
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_general"
+        android:text="@string/menu1"
+        android:textStyle="bold"
+        android:elevation="3dp"
+        android:id="@+id/Button1"/>
+    <Button
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_flash"
+        android:text="@string/menu2"
+        android:textStyle="bold"
+        android:id="@+id/Button2"/>
+    <Button
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_vote"
+        android:text="@string/menu3"
+        android:textStyle="bold"
+        android:id="@+id/Button3"/>
+    <Button
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_logout"
+        android:text="@string/menu4"
+        android:textStyle="bold"
+        android:id="@+id/Button4"/>
+</voto.ado.sainthannaz.votoseguro.aplication.DashboardLayout>

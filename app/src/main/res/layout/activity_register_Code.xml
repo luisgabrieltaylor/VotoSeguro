@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:whatever="http://schemas.android.com/apk/res-auto"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            xmlns:app="http://schemas.android.com/tools"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:textStyle="bold"
+                    android:text="@string/txt_registerCode"/>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/input_layout_code"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <com.andreabaccega.widget.FormEditText
+                        whatever:testType="nocheck"
+                        android:id="@+id/code"
+                        android:hint="@string/txtHintRegister_Code"
+                        whatever:emptyErrorString="@string/error_codeempty"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:padding="10dp"
+                        android:singleLine="true"/>
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/input_layout_driver"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <com.andreabaccega.widget.FormEditText
+                        whatever:testType="nocheck"
+                        android:id="@+id/driver"
+                        android:hint="@string/txtHintRegister_Driver"
+                        whatever:emptyErrorString="@string/error_driverempty"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:padding="10dp"
+                        android:singleLine="true"/>
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/input_layout_codebus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <com.andreabaccega.widget.FormEditText
+                        whatever:testType="nocheck"
+                        android:id="@+id/bus"
+                        android:hint="@string/txtHintRegister_CodeBus"
+                        whatever:emptyErrorString="@string/error_codebusempty"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:padding="10dp"
+                        android:singleLine="true"/>
+                </android.support.design.widget.TextInputLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_category"/>
+                <Spinner
+                    android:id="@+id/category"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:padding="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_region"/>
+                    <Spinner
+                        android:id="@+id/region"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:padding="10dp"/>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_gravity="bottom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/input_layout_codedate"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <com.andreabaccega.widget.FormEditText
+                            whatever:testType="nocheck"
+                            android:id="@+id/datePicker"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            whatever:emptyErrorString="@string/error_dateempty"
+                            android:hint="@string/txtHintRegister_CodeDate"
+                            android:inputType="date"/>
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/input_layout_codedatebutton"
+                        android:layout_weight="3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <com.rey.material.widget.Button
+                            android:id="@+id/btnDate"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/White"
+                            app:rd_rippleColor="@color/ColorPrimary"
+                            android:text="@string/btn_date"
+                            android:background="@drawable/bg_bt_raise_dark"
+                            style="@style/Material.Drawable.Ripple.Wave.Light"/>
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/txt_site"/>
+            <Spinner
+                android:id="@+id/site"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginBottom="10dp"
+                android:padding="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_classification"/>
+                <Spinner
+                    android:id="@+id/classification"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:padding="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_type"/>
+                <Spinner
+                    android:id="@+id/type"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:padding="10dp"/>
+
+                <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:gravity="center">
+                    <com.rey.material.widget.Button
+                        android:id="@+id/btnRegister"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/White"
+                        app:rd_rippleColor="@color/ColorPrimary"
+                        android:text="@string/btn_register"
+                        android:layout_marginTop="20dip"
+                        android:background="@drawable/bg_bt_raise_dark"
+                        style="@style/Material.Drawable.Ripple.Wave.Light"/>
+                </RelativeLayout>
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</android.support.design.widget.CoordinatorLayout>

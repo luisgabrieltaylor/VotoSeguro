@@ -1,0 +1,16 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="drawer_width">240dp</dimen>
+    <dimen name="drawer_text">20sp</dimen>
+    <dimen name="title_text">16sp</dimen>
+
+    <dimen name="bt_height">36dp</dimen>
+    <dimen name="nav_drawer_width">260dp</dimen>
+
+    <dimen name="code">17dp</dimen>
+    <dimen name="vote">15dip</dimen>
+    <dimen name="date_vote">13dip</dimen>
+</resources>
