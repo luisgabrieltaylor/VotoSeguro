@@ -160,4 +160,8 @@
     <string name="two">Abrir</string>
     <string name="three">Abrir</string>
 
+    <string name="success">Reporte PDF generado exitosamente</string>
+    <string name="sessionResume">Resumen de la sesión </string>
+    <string name="titleSession">Voto Seguro\nResumen por sesión</string>
+
 </resources>
